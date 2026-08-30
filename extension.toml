@@ -1,7 +1,21 @@
 [extension]
 id = "tailwind_css"
 name = "Tailwind CSS IntelliSense"
-version = "0.1.0"
-description = "Intelligent Tailwind CSS class autocompletion, hover previews, and linting"
-author = "biscuit-extensions"
+version = "0.2.0"
+description = "Tailwind CSS utility class intelligence, autocompletion provider, and hex color highlighter"
+author = "tomlin7"
 icon = "icon.png"
+repository = "https://github.com/biscuit-extensions/tailwind_css"
+
+[dependencies]
+python = []
+tools = [
+    "node"
+]
+
+[contributes]
+commands = [
+    { id = "tailwind.check_conflicts", title = "Tailwind: Check Class Conflicts" },
+    { id = "tailwind.sort_classes", title = "Tailwind: Sort Classes" },
+    { id = "tailwind.highlight_colors", title = "Tailwind: Highlight Color Utilities" }
+]

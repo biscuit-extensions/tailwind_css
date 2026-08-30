@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "tailwind_css"
-version = "0.1.0"
-description = "Intelligent Tailwind CSS class autocompletion, hover previews, and linting"
-authors = ["biscuit-extensions"]
+version = "0.2.0"
+description = "Tailwind CSS utility class intelligence, autocompletion provider, and hex color highlighter"
+authors = ["tomlin7"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

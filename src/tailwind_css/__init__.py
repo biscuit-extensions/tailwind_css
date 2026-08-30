@@ -10,4 +10,6 @@ if typing.TYPE_CHECKING:
 
 def setup(api: ExtensionsAPI) -> None:
     """Entrypoint for Biscuit to load the extension."""
-    api.register("tailwind_css", TailwindCSS(api))
+    ext = TailwindCSS(api)
+    api.register("tailwind_css", ext)
+    ext.install()
