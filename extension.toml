@@ -1,0 +1,7 @@
+[extension]
+id = "tailwind_css"
+name = "Tailwind CSS IntelliSense"
+version = "0.1.0"
+description = "Intelligent Tailwind CSS class autocompletion, hover previews, and linting"
+author = "biscuit-extensions"
+icon = "icon.png"
